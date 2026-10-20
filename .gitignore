@@ -1,6 +1,4 @@
 *.log
 __pycache__/
 .env
-phomber/
-phoneinfoga/
-shell-bot/
+.DS_Store
