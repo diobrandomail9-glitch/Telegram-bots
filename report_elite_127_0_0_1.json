@@ -1,0 +1,8 @@
+[
+    {
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "status": "OPEN",
+        "service_info": "Headers/Banner -> HTTP/1.0 200 OK\r"
+    }
+]

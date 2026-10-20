@@ -1,0 +1,4 @@
+=== REPORT ADVANCED SCAN ===
+Target: 127.0.0.1 | Range: 8000-8500
+---------------------------------------------
+[+] Porta 8080 APERTA | Banner: Servizio attivo (Timeout banner)

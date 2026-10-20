@@ -1,0 +1,25 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.21.1
+2 info using node@v24.18.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/shell-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm rebuild
+8 verbose argv "rebuild"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_14_16_806Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_14_16_806Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 info run node-pty@0.9.0 install node_modules/node-pty node scripts/install.js
+14 info run node-termios@0.0.13 install node_modules/node-termios node install.js
+15 info run node-pty@0.9.0 install { code: 0, signal: null }
+16 info run node-termios@0.0.13 install { code: 0, signal: null }
+17 info run node-pty@0.9.0 postinstall node_modules/node-pty node scripts/post-install.js
+18 info run node-pty@0.9.0 postinstall { code: 0, signal: null }
+19 verbose cwd /data/data/com.termux/files/home/shell-bot
+20 verbose os Linux 4.14.190-perf-g7f6bd6b2a3b2
+21 verbose node v24.18.0
+22 verbose npm  v11.21.1
+23 verbose exit 0
+24 info ok

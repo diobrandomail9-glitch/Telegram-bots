@@ -1,0 +1,1129 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.21.1
+2 info using node@v26.4.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/shell-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_00_03_444Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_00_03_444Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 warn old lockfile
+13 warn old lockfile The package-lock.json file was created with an old version of npm,
+13 warn old lockfile so supplemental metadata must be fetched from the registry.
+13 warn old lockfile
+13 warn old lockfile This is a one-time fix-up, please be patient...
+13 warn old lockfile
+14 silly inflate node_modules/agent-base
+15 silly packumentCache corgi:https://registry.npmjs.org/agent-base cache-miss
+16 silly inflate node_modules/asynckit
+17 silly packumentCache corgi:https://registry.npmjs.org/asynckit cache-miss
+18 silly inflate node_modules/balanced-match
+19 silly packumentCache corgi:https://registry.npmjs.org/balanced-match cache-miss
+20 silly inflate node_modules/botgram
+21 silly packumentCache corgi:https://registry.npmjs.org/botgram cache-miss
+22 silly inflate node_modules/brace-expansion
+23 silly packumentCache corgi:https://registry.npmjs.org/brace-expansion cache-miss
+24 silly inflate node_modules/combined-stream
+25 silly packumentCache corgi:https://registry.npmjs.org/combined-stream cache-miss
+26 silly inflate node_modules/concat-map
+27 silly packumentCache corgi:https://registry.npmjs.org/concat-map cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/combined-stream 1817ms (cache miss)
+29 silly packumentCache corgi:https://registry.npmjs.org/combined-stream set size:undefined disposed:false
+30 silly inflate node_modules/debug
+31 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/concat-map 1828ms (cache miss)
+33 silly packumentCache corgi:https://registry.npmjs.org/concat-map set size:undefined disposed:false
+34 silly inflate node_modules/delayed-stream
+35 silly packumentCache corgi:https://registry.npmjs.org/delayed-stream cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/asynckit 1843ms (cache miss)
+37 silly packumentCache corgi:https://registry.npmjs.org/asynckit set size:undefined disposed:false
+38 silly inflate node_modules/es6-promise
+39 silly packumentCache corgi:https://registry.npmjs.org/es6-promise cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/balanced-match 1856ms (cache miss)
+41 silly packumentCache corgi:https://registry.npmjs.org/balanced-match set size:undefined disposed:false
+42 silly inflate node_modules/es6-promisify
+43 silly packumentCache corgi:https://registry.npmjs.org/es6-promisify cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/agent-base 1876ms (cache miss)
+45 silly packumentCache corgi:https://registry.npmjs.org/agent-base set size:undefined disposed:false
+46 silly inflate node_modules/escape-html
+47 silly packumentCache corgi:https://registry.npmjs.org/escape-html cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/brace-expansion 1880ms (cache miss)
+49 silly packumentCache corgi:https://registry.npmjs.org/brace-expansion set size:undefined disposed:false
+50 silly inflate node_modules/form-data
+51 silly packumentCache corgi:https://registry.npmjs.org/form-data cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/botgram 1963ms (cache miss)
+53 silly packumentCache corgi:https://registry.npmjs.org/botgram set size:undefined disposed:false
+54 silly inflate node_modules/https-proxy-agent
+55 silly packumentCache corgi:https://registry.npmjs.org/https-proxy-agent cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/npm 2254ms
+57 http fetch GET 200 https://registry.npmjs.org/debug 620ms (cache miss)
+58 silly packumentCache corgi:https://registry.npmjs.org/debug set size:undefined disposed:false
+59 silly inflate node_modules/https-proxy-agent/node_modules/agent-base
+60 silly packumentCache corgi:https://registry.npmjs.org/agent-base cache-miss
+61 http cache https://registry.npmjs.org/agent-base 30ms (cache hit)
+62 silly packumentCache corgi:https://registry.npmjs.org/agent-base set size:33137 disposed:false
+63 silly inflate node_modules/ip
+64 silly packumentCache corgi:https://registry.npmjs.org/ip cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/delayed-stream 711ms (cache miss)
+66 silly packumentCache corgi:https://registry.npmjs.org/delayed-stream set size:undefined disposed:false
+67 silly inflate node_modules/mime
+68 silly packumentCache corgi:https://registry.npmjs.org/mime cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/escape-html 678ms (cache miss)
+70 silly packumentCache corgi:https://registry.npmjs.org/escape-html set size:undefined disposed:false
+71 silly inflate node_modules/mime-db
+72 silly packumentCache corgi:https://registry.npmjs.org/mime-db cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 598ms (cache miss)
+74 silly packumentCache corgi:https://registry.npmjs.org/https-proxy-agent set size:undefined disposed:false
+75 silly inflate node_modules/mime-types
+76 silly packumentCache corgi:https://registry.npmjs.org/mime-types cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/form-data 685ms (cache miss)
+78 silly packumentCache corgi:https://registry.npmjs.org/form-data set size:undefined disposed:false
+79 silly inflate node_modules/minimatch
+80 silly packumentCache corgi:https://registry.npmjs.org/minimatch cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/es6-promise 889ms (cache miss)
+82 silly packumentCache corgi:https://registry.npmjs.org/es6-promise set size:undefined disposed:false
+83 silly inflate node_modules/ms
+84 silly packumentCache corgi:https://registry.npmjs.org/ms cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/es6-promisify 884ms (cache miss)
+86 silly packumentCache corgi:https://registry.npmjs.org/es6-promisify set size:undefined disposed:false
+87 silly inflate node_modules/nan
+88 silly packumentCache corgi:https://registry.npmjs.org/nan cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/mime 200ms (cache miss)
+90 silly packumentCache corgi:https://registry.npmjs.org/mime set size:undefined disposed:false
+91 silly inflate node_modules/node-pty
+92 silly packumentCache corgi:https://registry.npmjs.org/node-pty cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/mime-db 205ms (cache miss)
+94 silly packumentCache corgi:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+95 silly inflate node_modules/node-pty/node_modules/nan
+96 silly packumentCache corgi:https://registry.npmjs.org/nan cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/mime-types 196ms (cache miss)
+98 silly packumentCache corgi:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+99 silly inflate node_modules/node-termios
+100 silly packumentCache corgi:https://registry.npmjs.org/node-termios cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/ms 127ms (cache miss)
+102 silly packumentCache corgi:https://registry.npmjs.org/ms set size:undefined disposed:false
+103 silly inflate node_modules/smart-buffer
+104 silly packumentCache corgi:https://registry.npmjs.org/smart-buffer cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/ip 434ms (cache miss)
+106 silly packumentCache corgi:https://registry.npmjs.org/ip set size:undefined disposed:false
+107 silly inflate node_modules/socks
+108 silly packumentCache corgi:https://registry.npmjs.org/socks cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/minimatch 407ms (cache miss)
+110 silly packumentCache corgi:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+111 silly inflate node_modules/socks-proxy-agent
+112 silly packumentCache corgi:https://registry.npmjs.org/socks-proxy-agent cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/smart-buffer 138ms (cache miss)
+114 silly packumentCache corgi:https://registry.npmjs.org/smart-buffer set size:undefined disposed:false
+115 silly inflate node_modules/terminal.js
+116 silly packumentCache corgi:https://registry.npmjs.org/terminal.js cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/socks-proxy-agent 228ms (cache miss)
+118 silly packumentCache corgi:https://registry.npmjs.org/socks-proxy-agent set size:undefined disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/node-termios 454ms (cache miss)
+120 silly packumentCache corgi:https://registry.npmjs.org/node-termios set size:undefined disposed:false
+121 http fetch GET 200 https://registry.npmjs.org/socks 300ms (cache miss)
+122 silly packumentCache corgi:https://registry.npmjs.org/socks set size:undefined disposed:false
+123 http fetch GET 200 https://registry.npmjs.org/nan 496ms (cache miss)
+124 silly packumentCache corgi:https://registry.npmjs.org/nan set size:undefined disposed:false
+125 http fetch GET 200 https://registry.npmjs.org/nan 532ms (cache miss)
+126 silly packumentCache corgi:https://registry.npmjs.org/nan set size:undefined disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/node-pty 624ms (cache miss)
+128 silly packumentCache corgi:https://registry.npmjs.org/node-pty set size:undefined disposed:false
+129 http fetch GET 200 https://registry.npmjs.org/terminal.js 388ms (cache miss)
+130 silly packumentCache corgi:https://registry.npmjs.org/terminal.js set size:undefined disposed:false
+131 silly idealTree buildDeps
+132 silly reify moves {}
+133 silly audit bulk request {
+133 silly audit   'agent-base': [ '4.2.1', '6.0.2' ],
+133 silly audit   asynckit: [ '0.4.0' ],
+133 silly audit   'balanced-match': [ '1.0.0' ],
+133 silly audit   botgram: [ '2.2.0' ],
+133 silly audit   'brace-expansion': [ '1.1.11' ],
+133 silly audit   'combined-stream': [ '1.0.7' ],
+133 silly audit   'concat-map': [ '0.0.1' ],
+133 silly audit   debug: [ '4.3.1' ],
+133 silly audit   'delayed-stream': [ '1.0.0' ],
+133 silly audit   'es6-promise': [ '4.2.6' ],
+133 silly audit   'es6-promisify': [ '5.0.0' ],
+133 silly audit   'escape-html': [ '1.0.3' ],
+133 silly audit   'form-data': [ '2.3.3' ],
+133 silly audit   'https-proxy-agent': [ '5.0.0' ],
+133 silly audit   ip: [ '1.1.5' ],
+133 silly audit   mime: [ '1.6.0' ],
+133 silly audit   'mime-db': [ '1.38.0' ],
+133 silly audit   'mime-types': [ '2.1.22' ],
+133 silly audit   minimatch: [ '3.0.4' ],
+133 silly audit   ms: [ '2.1.2' ],
+133 silly audit   nan: [ '2.14.2', '2.14.0' ],
+133 silly audit   'node-pty': [ '0.9.0' ],
+133 silly audit   'node-termios': [ '0.0.13' ],
+133 silly audit   'smart-buffer': [ '4.0.2' ],
+133 silly audit   socks: [ '2.2.3' ],
+133 silly audit   'socks-proxy-agent': [ '4.0.1' ],
+133 silly audit   'terminal.js': [ '1.0.9' ]
+133 silly audit }
+134 http cache terminal.js@https://registry.npmjs.org/terminal.js/-/terminal.js-1.0.9.tgz 0ms (cache hit)
+135 http cache socks-proxy-agent@https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-4.0.1.tgz 0ms (cache hit)
+136 http cache socks@https://registry.npmjs.org/socks/-/socks-2.2.3.tgz 0ms (cache hit)
+137 http cache node-termios@https://registry.npmjs.org/node-termios/-/node-termios-0.0.13.tgz 0ms (cache hit)
+138 http cache node-pty@https://registry.npmjs.org/node-pty/-/node-pty-0.9.0.tgz 0ms (cache hit)
+139 http cache smart-buffer@https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.0.2.tgz 0ms (cache hit)
+140 http cache nan@https://registry.npmjs.org/nan/-/nan-2.14.2.tgz 0ms (cache hit)
+141 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 0ms (cache hit)
+142 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz 0ms (cache hit)
+143 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.22.tgz 1ms (cache hit)
+144 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.38.0.tgz 0ms (cache hit)
+145 http cache mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 0ms (cache hit)
+146 http cache ip@https://registry.npmjs.org/ip/-/ip-1.1.5.tgz 0ms (cache hit)
+147 http cache https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz 0ms (cache hit)
+148 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz 0ms (cache hit)
+149 http cache escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 0ms (cache hit)
+150 http cache es6-promisify@https://registry.npmjs.org/es6-promisify/-/es6-promisify-5.0.0.tgz 0ms (cache hit)
+151 http cache es6-promise@https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.6.tgz 0ms (cache hit)
+152 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+153 http cache debug@https://registry.npmjs.org/debug/-/debug-4.3.1.tgz 0ms (cache hit)
+154 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1ms (cache hit)
+155 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.7.tgz 0ms (cache hit)
+156 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 0ms (cache hit)
+157 http cache botgram@https://registry.npmjs.org/botgram/-/botgram-2.2.0.tgz 0ms (cache hit)
+158 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz 0ms (cache hit)
+159 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+160 http cache agent-base@https://registry.npmjs.org/agent-base/-/agent-base-4.2.1.tgz 0ms (cache hit)
+161 http cache nan@https://registry.npmjs.org/nan/-/nan-2.14.0.tgz 0ms (cache hit)
+162 http cache agent-base@https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz 0ms (cache hit)
+163 silly tarball no local data for terminal.js@https://registry.npmjs.org/terminal.js/-/terminal.js-1.0.9.tgz. Extracting by manifest.
+164 silly tarball no local data for socks-proxy-agent@https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-4.0.1.tgz. Extracting by manifest.
+165 silly tarball no local data for socks@https://registry.npmjs.org/socks/-/socks-2.2.3.tgz. Extracting by manifest.
+166 silly tarball no local data for node-termios@https://registry.npmjs.org/node-termios/-/node-termios-0.0.13.tgz. Extracting by manifest.
+167 silly tarball no local data for node-pty@https://registry.npmjs.org/node-pty/-/node-pty-0.9.0.tgz. Extracting by manifest.
+168 silly tarball no local data for smart-buffer@https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.0.2.tgz. Extracting by manifest.
+169 silly tarball no local data for nan@https://registry.npmjs.org/nan/-/nan-2.14.2.tgz. Extracting by manifest.
+170 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+171 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz. Extracting by manifest.
+172 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.22.tgz. Extracting by manifest.
+173 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.38.0.tgz. Extracting by manifest.
+174 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+175 silly tarball no local data for ip@https://registry.npmjs.org/ip/-/ip-1.1.5.tgz. Extracting by manifest.
+176 silly tarball no local data for https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz. Extracting by manifest.
+177 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz. Extracting by manifest.
+178 silly tarball no local data for escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz. Extracting by manifest.
+179 silly tarball no local data for es6-promisify@https://registry.npmjs.org/es6-promisify/-/es6-promisify-5.0.0.tgz. Extracting by manifest.
+180 silly tarball no local data for es6-promise@https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.6.tgz. Extracting by manifest.
+181 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+182 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.1.tgz. Extracting by manifest.
+183 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+184 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.7.tgz. Extracting by manifest.
+185 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz. Extracting by manifest.
+186 silly tarball no local data for botgram@https://registry.npmjs.org/botgram/-/botgram-2.2.0.tgz. Extracting by manifest.
+187 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz. Extracting by manifest.
+188 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+189 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-4.2.1.tgz. Extracting by manifest.
+190 silly tarball no local data for nan@https://registry.npmjs.org/nan/-/nan-2.14.0.tgz. Extracting by manifest.
+191 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz. Extracting by manifest.
+192 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 499ms
+193 silly audit report {
+193 silly audit report   'brace-expansion': [
+193 silly audit report     {
+193 silly audit report       id: 1105443,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-v6h2-p8h4-qcjw',
+193 silly audit report       title: 'brace-expansion Regular Expression Denial of Service vulnerability',
+193 silly audit report       severity: 'low',
+193 silly audit report       vulnerable_versions: '>=1.0.0 <=1.1.11',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1130588,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-mh99-v99m-4gvg',
+193 silly audit report       title: 'brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<1.1.17',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1130737,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-rgw5-rvv9-x895',
+193 silly audit report       title: 'brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<1.1.18',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1115540,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-f886-m6hf-6m8v',
+193 silly audit report       title: 'brace-expansion: Zero-step sequence causes process hang and memory exhaustion',
+193 silly audit report       severity: 'moderate',
+193 silly audit report       vulnerable_versions: '<1.1.13',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1123897,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-3jxr-9vmj-r5cp',
+193 silly audit report       title: 'brace-expansion: DoS via exponential-time expansion of consecutive non-expanding {} groups',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<1.1.16',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1240108,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-6j4f-fj2g-mc7p',
+193 silly audit report       title: 'brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<1.1.19',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1240100,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-q2hr-2g5m-vwhr',
+193 silly audit report       title: 'brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service',
+193 silly audit report       severity: 'moderate',
+193 silly audit report       vulnerable_versions: '<1.1.21',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1240104,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-qhr7-859c-m2p7',
+193 silly audit report       title: 'brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<1.1.20',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     }
+193 silly audit report   ],
+193 silly audit report   'form-data': [
+193 silly audit report     {
+193 silly audit report       id: 1109540,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-fjxv-7rqg-78g4',
+193 silly audit report       title: 'form-data uses unsafe random function in form-data for choosing boundary',
+193 silly audit report       severity: 'critical',
+193 silly audit report       vulnerable_versions: '<2.5.4',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1120745,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-hmw2-7cc7-3qxx',
+193 silly audit report       title: 'form-data: CRLF injection in form-data via unescaped multipart field names and filenames',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<2.5.6',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     }
+193 silly audit report   ],
+193 silly audit report   ip: [
+193 silly audit report     {
+193 silly audit report       id: 1101851,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-2p57-rm9w-gvfp',
+193 silly audit report       title: 'ip SSRF improper categorization in isPublic',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<=2.0.1',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1114831,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-78xj-cgh5-2h22',
+193 silly audit report       title: 'NPM IP package incorrectly identifies some private IP addresses as public',
+193 silly audit report       severity: 'low',
+193 silly audit report       vulnerable_versions: '<1.1.9',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     }
+193 silly audit report   ],
+193 silly audit report   minimatch: [
+193 silly audit report     {
+193 silly audit report       id: 1113459,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-3ppc-4f35-3m26',
+193 silly audit report       title: 'minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<3.1.3',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1113538,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-7r86-cg39-jmmj',
+193 silly audit report       title: 'minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<3.1.3',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1113546,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-23c5-xmqv-rm74',
+193 silly audit report       title: 'minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<3.1.4',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     },
+193 silly audit report     {
+193 silly audit report       id: 1096485,
+193 silly audit report       url: 'https://github.com/advisories/GHSA-f8q6-p94x-37v3',
+193 silly audit report       title: 'minimatch ReDoS vulnerability',
+193 silly audit report       severity: 'high',
+193 silly audit report       vulnerable_versions: '<3.0.5',
+193 silly audit report       cwe: [Array],
+193 silly audit report       cvss: [Object]
+193 silly audit report     }
+193 silly audit report   ]
+193 silly audit report }
+194 silly packumentCache corgi:https://registry.npmjs.org/brace-expansion cache-miss
+195 silly packumentCache corgi:https://registry.npmjs.org/form-data cache-miss
+196 silly packumentCache corgi:https://registry.npmjs.org/ip cache-miss
+197 silly packumentCache corgi:https://registry.npmjs.org/minimatch cache-miss
+198 http cache https://registry.npmjs.org/brace-expansion 95ms (cache hit)
+199 silly packumentCache corgi:https://registry.npmjs.org/brace-expansion set size:45109 disposed:false
+200 http cache https://registry.npmjs.org/ip 120ms (cache hit)
+201 silly packumentCache corgi:https://registry.npmjs.org/ip set size:17316 disposed:false
+202 http cache https://registry.npmjs.org/form-data 127ms (cache hit)
+203 silly packumentCache corgi:https://registry.npmjs.org/form-data set size:55002 disposed:false
+204 http cache https://registry.npmjs.org/minimatch 134ms (cache hit)
+205 silly packumentCache corgi:https://registry.npmjs.org/minimatch set size:169442 disposed:false
+206 http fetch GET 200 https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-4.0.1.tgz 695ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.0.2.tgz 723ms (cache miss)
+208 silly packumentCache corgi:https://registry.npmjs.org/botgram cache-miss
+209 http cache https://registry.npmjs.org/botgram 34ms (cache hit)
+210 silly packumentCache corgi:https://registry.npmjs.org/botgram set size:8481 disposed:false
+211 http fetch GET 200 https://registry.npmjs.org/node-termios/-/node-termios-0.0.13.tgz 785ms (cache miss)
+212 silly packumentCache corgi:https://registry.npmjs.org/socks cache-miss
+213 http cache https://registry.npmjs.org/socks 24ms (cache hit)
+214 silly packumentCache corgi:https://registry.npmjs.org/socks set size:67907 disposed:false
+215 http fetch GET 200 https://registry.npmjs.org/nan/-/nan-2.14.2.tgz 847ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/socks/-/socks-2.2.3.tgz 877ms (cache miss)
+217 silly packumentCache corgi:https://registry.npmjs.org/socks-proxy-agent cache-miss
+218 http cache https://registry.npmjs.org/socks-proxy-agent 9ms (cache hit)
+219 silly packumentCache corgi:https://registry.npmjs.org/socks-proxy-agent set size:43865 disposed:false
+220 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz 1065ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 1064ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/terminal.js/-/terminal.js-1.0.9.tgz 1162ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/es6-promisify/-/es6-promisify-5.0.0.tgz 1315ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 1385ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.1.tgz 1458ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1522ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.6.tgz 1666ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/node-pty/-/node-pty-0.9.0.tgz 1767ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.7.tgz 1893ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 1893ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz 1891ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/agent-base/-/agent-base-4.2.1.tgz 1957ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 1971ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz 2004ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz 2096ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 2178ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.22.tgz 2195ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz 2200ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/ip/-/ip-1.1.5.tgz 2208ms (cache miss)
+240 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.38.0.tgz 2220ms (cache miss)
+241 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 2219ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/nan/-/nan-2.14.0.tgz 2210ms (cache miss)
+243 http fetch GET 200 https://registry.npmjs.org/botgram/-/botgram-2.2.0.tgz 2225ms (cache miss)
+244 info run node-pty@0.9.0 install node_modules/node-pty node scripts/install.js
+245 info run node-termios@0.0.13 install node_modules/node-termios node install.js
+246 info run node-termios@0.0.13 install { code: 0, signal: null }
+247 info run node-pty@0.9.0 install { code: 1, signal: null }
+248 verbose stack Error: command failed
+248 verbose stack     at promiseSpawn (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:22:22)
+248 verbose stack     at spawnWithShell (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:124:10)
+248 verbose stack     at promiseSpawn (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:12:12)
+248 verbose stack     at runScriptPkg (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script-pkg.js:79:13)
+248 verbose stack     at runScript (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:9:12)
+248 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/rebuild.js:348:17
+248 verbose stack     at run (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:67:22)
+248 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:84:9
+248 verbose stack     at new Promise (<anonymous>)
+248 verbose stack     at callLimit (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:35:69)
+249 verbose pkgid node-pty@0.9.0
+250 error code 1
+251 error path /data/data/com.termux/files/home/shell-bot/node_modules/node-pty
+252 error command failed
+253 error command sh -c node scripts/install.js
+254 error make: Entering directory '/data/data/com.termux/files/home/shell-bot/node_modules/node-pty/build'
+254 error   CXX(target) Release/obj.target/pty/src/unix/pty.o
+254 error make: Leaving directory '/data/data/com.termux/files/home/shell-bot/node_modules/node-pty/build'
+255 error gyp info it worked if it ends with ok
+255 error gyp info using node-gyp@12.4.0
+255 error gyp info using node@26.4.0 | android | arm64
+255 error gyp info find Python using Python version 3.14.6 found at "/data/data/com.termux/files/usr/bin/python3"
+255 error gyp info spawn /data/data/com.termux/files/usr/bin/python3
+255 error gyp info spawn args [
+255 error gyp info spawn args '/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py',
+255 error gyp info spawn args 'binding.gyp',
+255 error gyp info spawn args '-f',
+255 error gyp info spawn args 'make',
+255 error gyp info spawn args '-I',
+255 error gyp info spawn args '/data/data/com.termux/files/home/shell-bot/node_modules/node-pty/build/config.gypi',
+255 error gyp info spawn args '-I',
+255 error gyp info spawn args '/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/addon.gypi',
+255 error gyp info spawn args '-I',
+255 error gyp info spawn args '/data/data/com.termux/files/usr/include/node/common.gypi',
+255 error gyp info spawn args '-Dlibrary=shared_library',
+255 error gyp info spawn args '-Dvisibility=default',
+255 error gyp info spawn args '-Dnode_root_dir=/data/data/com.termux/files/usr',
+255 error gyp info spawn args '-Dnode_gyp_dir=/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp',
+255 error gyp info spawn args '-Dnode_lib_file=/data/data/com.termux/files/usr/$(Configuration)/node.lib',
+255 error gyp info spawn args '-Dmodule_root_dir=/data/data/com.termux/files/home/shell-bot/node_modules/node-pty',
+255 error gyp info spawn args '-Dnode_engine=v8',
+255 error gyp info spawn args '--depth=.',
+255 error gyp info spawn args '--no-parallel',
+255 error gyp info spawn args '--generator-output',
+255 error gyp info spawn args 'build',
+255 error gyp info spawn args '-Goutput_dir=.'
+255 error gyp info spawn args ]
+255 error gyp info spawn make
+255 error gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error ../node_modules/nan/nan_callbacks.h:55:23: error: no member named 'AccessorSignature' in namespace 'v8'
+255 error    55 | typedef v8::Local<v8::AccessorSignature> Sig;
+255 error       |                       ^~~~~~~~~~~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:173:69: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   173 |           obj->GetInternalField(kFunctionIndex).As<v8::External>()->Value()));
+255 error       |                                                                     ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:175:7: error: no matching constructor for initialization of 'FunctionCallbackInfo<v8::Value>'
+255 error   175 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:98:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'Local<v8::Value>' for 2nd argument
+255 error    98 |   explicit inline FunctionCallbackInfo(
+255 error       |                   ^
+255 error    99 |       const v8::FunctionCallbackInfo<T> &info
+255 error   100 |     , v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:131:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   131 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(FunctionCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:131:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   131 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(FunctionCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:188:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Value>'
+255 error   188 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:191:67: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   191 |           obj->GetInternalField(kGetterIndex).As<v8::External>()->Value()));
+255 error       |                                                                   ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:205:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<void>'
+255 error   205 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:208:67: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   208 |           obj->GetInternalField(kSetterIndex).As<v8::External>()->Value()));
+255 error       |                                                                   ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:260:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Value>'
+255 error   260 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:264:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   264 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:278:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Value>'
+255 error   278 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:282:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   282 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:296:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Array>'
+255 error   296 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:300:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   300 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:313:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Boolean>'
+255 error   313 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:317:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   317 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:330:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Integer>'
+255 error   330 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:334:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   334 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:434:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Value>'
+255 error   434 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:438:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   438 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:452:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Value>'
+255 error   452 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:456:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   456 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:470:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Array>'
+255 error   470 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:474:66: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   474 |               kIndexPropertyEnumeratorIndex).As<v8::External>()->Value()));
+255 error       |                                                                  ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:486:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Boolean>'
+255 error   486 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:490:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   490 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:502:7: error: no matching constructor for initialization of 'PropertyCallbackInfo<v8::Integer>'
+255 error   502 |       cbinfo(info, obj->GetInternalField(kDataIndex));
+255 error       |       ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:140:19: note: candidate constructor not viable: no known conversion from 'Local<Data>' to 'const Local<v8::Value>' for 2nd argument
+255 error   140 |   explicit inline PropertyCallbackInfo(
+255 error       |                   ^
+255 error   141 |       const v8::PropertyCallbackInfo<T> &info
+255 error   142 |     , const v8::Local<v8::Value> data) :
+255 error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:138:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   138 |     NAN_DISALLOW_COPY(CLASS)                                                   \
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:114:35: note: expanded from macro 'NAN_DISALLOW_COPY'
+255 error   114 | # define NAN_DISALLOW_COPY(CLASS) CLASS(const CLASS&) = delete;
+255 error       |                                   ^     ~~~~~~~~~~~~
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:164:33: note: candidate constructor not viable: requires 1 argument, but 2 were provided
+255 error   164 |   NAN_DISALLOW_ASSIGN_COPY_MOVE(PropertyCallbackInfo)
+255 error       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:139:23: note: expanded from macro 'NAN_DISALLOW_ASSIGN_COPY_MOVE'
+255 error   139 |     NAN_DISALLOW_MOVE(CLASS)
+255 error       |     ~~~~~~~~~~~~~~~~~~^~~~~~
+255 error ../node_modules/nan/nan.h:116:5: note: expanded from macro 'NAN_DISALLOW_MOVE'
+255 error   116 |     CLASS(CLASS&&) = delete;  /* NOLINT(build/c++11) */                        \
+255 error       |     ^     ~~~~~~~
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:174:
+255 error In file included from ../node_modules/nan/nan_callbacks.h:83:
+255 error ../node_modules/nan/nan_callbacks_12_inl.h:506:36: warning: 'Value' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   506 |               .As<v8::External>()->Value()));
+255 error       |                                    ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:54:3: note: 'Value' has been explicitly marked deprecated here
+255 error    54 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error ../node_modules/nan/nan.h:200:12: error: no template named 'CopyablePersistentTraits' in namespace 'v8'; did you mean simply 'CopyablePersistentTraits'?
+255 error   200 |     public v8::CopyablePersistentTraits<T> {};
+255 error       |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error       |            CopyablePersistentTraits
+255 error ../node_modules/nan/nan.h:199:7: note: 'CopyablePersistentTraits' declared here
+255 error   199 | class CopyablePersistentTraits :
+255 error       |       ^
+255 error ../node_modules/nan/nan.h:200:12: error: base class has incomplete type
+255 error   200 |     public v8::CopyablePersistentTraits<T> {};
+255 error       |     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:199:7: note: definition of 'CopyablePersistentTraits<T>' is not complete until the closing '}'
+255 error   199 | class CopyablePersistentTraits :
+255 error       |       ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:282:
+255 error ../node_modules/nan/nan_maybe_43_inl.h:210:15: error: no member named 'SetPrototype' in 'v8::Object'
+255 error   210 |   return obj->SetPrototype(isolate->GetCurrentContext(), prototype);
+255 error       |          ~~~~~^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:288:
+255 error In file included from ../node_modules/nan/nan_new.h:189:
+255 error ../node_modules/nan/nan_implementation_12_inl.h:79:24: warning: 'New' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error    79 |   return v8::External::New(v8::Isolate::GetCurrent(), value);
+255 error       |                        ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:31:3: note: 'New' has been explicitly marked deprecated here
+255 error    31 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:288:
+255 error In file included from ../node_modules/nan/nan_new.h:189:
+255 error ../node_modules/nan/nan_implementation_12_inl.h:95:21: warning: 'New' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error    95 |     , v8::External::New(isolate, reinterpret_cast<void *>(callback)));
+255 error       |                     ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:31:3: note: 'New' has been explicitly marked deprecated here
+255 error    31 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error In file included from ../node_modules/nan/nan.h:288:
+255 error In file included from ../node_modules/nan/nan_new.h:189:
+255 error ../node_modules/nan/nan_implementation_12_inl.h:131:23: warning: 'New' is deprecated: Use the version with the type tag. [-Wdeprecated-declarations]
+255 error   131 |       , v8::External::New(isolate, reinterpret_cast<void *>(callback)));
+255 error       |                       ^
+255 error /data/data/com.termux/files/usr/include/node/v8-external.h:31:3: note: 'New' has been explicitly marked deprecated here
+255 error    31 |   V8_DEPRECATED("Use the version with the type tag.")
+255 error       |   ^
+255 error /data/data/com.termux/files/usr/include/node/v8config.h:615:35: note: expanded from macro 'V8_DEPRECATED'
+255 error   615 | # define V8_DEPRECATED(message) [[deprecated(message)]]
+255 error       |                                   ^
+255 error In file included from ../src/unix/pty.cc:20:
+255 error ../node_modules/nan/nan.h:416:59: error: no member named 'REPLACE_INVALID_UTF8' in 'v8::String'
+255 error   416 |   static const unsigned kReplaceInvalidUtf8 = v8::String::REPLACE_INVALID_UTF8;
+255 error       |                                                           ^~~~~~~~~~~~~~~~~~~~
+255 error ../node_modules/nan/nan.h:680:39: error: no member named 'IdleNotificationDeadline' in 'v8::Isolate'
+255 error   680 |     return v8::Isolate::GetCurrent()->IdleNotificationDeadline(
+255 error       |            ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+255 error fatal error: too many errors emitted, stopping now [-ferror-limit=]
+255 error 16 warnings and 20 errors generated.
+255 error make: *** [pty.target.mk:105: Release/obj.target/pty/src/unix/pty.o] Error 1
+255 error gyp ERR! build error 
+255 error gyp ERR! stack Error: `make` failed with exit code: 2
+255 error gyp ERR! stack at ChildProcess.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:219:23)
+255 error gyp ERR! System Linux 4.14.190-perf-g7f6bd6b2a3b2
+255 error gyp ERR! command "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+255 error gyp ERR! cwd /data/data/com.termux/files/home/shell-bot/node_modules/node-pty
+255 error gyp ERR! node -v v26.4.0
+255 error gyp ERR! node-gyp -v v12.4.0
+255 error gyp ERR! $npm_package_name node-pty
+255 error gyp ERR! $npm_package_version 0.9.0
+255 error gyp ERR! not ok
+256 silly unfinished npm timer reify 1792098005644
+257 silly unfinished npm timer reify:build 1792098011627
+258 silly unfinished npm timer build 1792098011628
+259 silly unfinished npm timer build:deps 1792098011629
+260 silly unfinished npm timer build:run:install 1792098011647
+261 silly unfinished npm timer build:run:install:node_modules/node-pty 1792098011648
+262 verbose cwd /data/data/com.termux/files/home/shell-bot
+263 verbose os Linux 4.14.190-perf-g7f6bd6b2a3b2
+264 verbose node v26.4.0
+265 verbose npm  v11.21.1
+266 notice
+266 notice New [31mmajor[39m version of npm available! [31m11.21.1[39m -> [34m12.2.0[39m
+266 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v12.2.0[39m
+266 notice To update run: [4mnpm install -g npm@12.2.0[24m
+266 notice  { force: true, Symbol(proc-log.meta): true }
+267 verbose exit 1
+268 verbose code 1
+269 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_00_03_444Z-debug-0.log

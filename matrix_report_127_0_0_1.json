@@ -1,0 +1,8 @@
+[
+    {
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "status": "OPEN",
+        "details": "Status: HTTP/1.0 501 Unsupported method ('OPTIONS') | Metodi Allow: N/D"
+    }
+]

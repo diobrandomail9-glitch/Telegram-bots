@@ -1,0 +1,4 @@
+=== MANGA SCAN REPORT (ADVANCED) ===
+Target:  | Range: 8000-9000
+-----------------------------------
+[DON!] Porta 8080 APERTA! | Banner: Timeout

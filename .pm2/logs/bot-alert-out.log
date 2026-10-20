@@ -1,0 +1,3 @@
+[LOG] [2026-10-20 19:37:15] [INFO] === Ciclo Sneakers ===
+[LOG] [2026-10-20 19:37:15] [INFO] Inizio scansione Nike...
+[LOG] [2026-10-20 19:37:17] [ERRORE] Errore Telegram: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))

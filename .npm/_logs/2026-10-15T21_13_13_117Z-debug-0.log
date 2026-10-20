@@ -1,0 +1,101 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.21.1
+2 info using node@v24.18.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/shell-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_13_13_117Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_13_13_117Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   'agent-base': [ '6.0.2', '4.2.1' ],
+15 silly audit   asynckit: [ '0.4.0' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   botgram: [ '2.2.0' ],
+15 silly audit   'brace-expansion': [ '1.1.21' ],
+15 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+15 silly audit   'combined-stream': [ '1.0.8' ],
+15 silly audit   'concat-map': [ '0.0.1' ],
+15 silly audit   debug: [ '4.4.3' ],
+15 silly audit   'delayed-stream': [ '1.0.0' ],
+15 silly audit   'dunder-proto': [ '1.0.1' ],
+15 silly audit   'es-define-property': [ '1.0.1' ],
+15 silly audit   'es-errors': [ '1.3.0' ],
+15 silly audit   'es-object-atoms': [ '1.1.2' ],
+15 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+15 silly audit   'es6-promise': [ '4.2.8' ],
+15 silly audit   'es6-promisify': [ '5.0.0' ],
+15 silly audit   'escape-html': [ '1.0.3' ],
+15 silly audit   'form-data': [ '4.0.6' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   'get-intrinsic': [ '1.3.0' ],
+15 silly audit   'get-proto': [ '1.0.1' ],
+15 silly audit   gopd: [ '1.2.0' ],
+15 silly audit   'has-symbols': [ '1.1.0' ],
+15 silly audit   'has-tostringtag': [ '1.0.2' ],
+15 silly audit   hasown: [ '2.0.4' ],
+15 silly audit   'https-proxy-agent': [ '5.0.1' ],
+15 silly audit   ip: [ '1.1.5' ],
+15 silly audit   'math-intrinsics': [ '1.1.0' ],
+15 silly audit   mime: [ '1.6.0' ],
+15 silly audit   'mime-db': [ '1.52.0' ],
+15 silly audit   'mime-types': [ '2.1.35' ],
+15 silly audit   minimatch: [ '3.1.5' ],
+15 silly audit   ms: [ '2.1.3' ],
+15 silly audit   nan: [ '2.29.0' ],
+15 silly audit   'node-pty': [ '0.9.0' ],
+15 silly audit   'node-termios': [ '0.0.13' ],
+15 silly audit   'smart-buffer': [ '4.2.0' ],
+15 silly audit   socks: [ '2.3.3' ],
+15 silly audit   'socks-proxy-agent': [ '4.0.2' ],
+15 silly audit   'terminal.js': [ '1.0.9' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 872ms
+17 silly audit report {
+17 silly audit report   ip: [
+17 silly audit report     {
+17 silly audit report       id: 1101851,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-2p57-rm9w-gvfp',
+17 silly audit report       title: 'ip SSRF improper categorization in isPublic',
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<=2.0.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1114831,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-78xj-cgh5-2h22',
+17 silly audit report       title: 'NPM IP package incorrectly identifies some private IP addresses as public',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '<1.1.9',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/ip cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/ip 504ms (cache revalidated)
+20 silly packumentCache corgi:https://registry.npmjs.org/ip set size:17316 disposed:false
+21 silly packumentCache corgi:https://registry.npmjs.org/socks cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/socks 141ms (cache revalidated)
+23 silly packumentCache corgi:https://registry.npmjs.org/socks set size:67907 disposed:false
+24 silly packumentCache corgi:https://registry.npmjs.org/socks-proxy-agent cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/socks-proxy-agent 147ms (cache revalidated)
+26 silly packumentCache corgi:https://registry.npmjs.org/socks-proxy-agent set size:43865 disposed:false
+27 warn install-scripts 2 packages have install scripts not yet covered by allowScripts:
+27 warn install-scripts   node-pty@0.9.0 (install: node-gyp rebuild)
+27 warn install-scripts   node-termios@0.0.13 (install: node-gyp rebuild)
+27 warn install-scripts
+27 warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+28 verbose cwd /data/data/com.termux/files/home/shell-bot
+29 verbose os Linux 4.14.190-perf-g7f6bd6b2a3b2
+30 verbose node v24.18.0
+31 verbose npm  v11.21.1
+32 verbose exit 0
+33 info ok

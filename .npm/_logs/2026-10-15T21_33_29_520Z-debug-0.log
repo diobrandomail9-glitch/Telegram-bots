@@ -1,0 +1,19 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.21.1
+2 info using node@v24.18.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/shell-bot/node_modules/node-termios/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm run tsc
+8 verbose argv "run" "tsc"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_33_29_520Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T21_33_29_520Z-debug-0.log
+11 warn Unknown env config "build-from-source". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+12 silly logfile done cleaning log files
+13 verbose cwd /data/data/com.termux/files/home/shell-bot/node_modules/node-termios
+14 verbose os Linux 4.14.190-perf-g7f6bd6b2a3b2
+15 verbose node v24.18.0
+16 verbose npm  v11.21.1
+17 verbose exit 0
+18 info ok

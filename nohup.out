@@ -1,0 +1,22 @@
+--- MONITOR PREZZI AUTOMATICO AVVIATO ---
+[*] Controllo prezzo in corso...
+[*] Prodotto: A Light in the Attic
+[*] Prezzo Trovato: £51.77 (Soglia Target: £52.0)
+[🔥] Il prezzo è sceso sotto la soglia! Invio notifica...
+[+] Alert inviato con successo su Telegram!
+  File "/data/data/com.termux/files/home/bot_alert.py", line 122
+    scrivi_report(finglese f"Errore imprevisto nel ciclo principale: {e}", "CRITICAL")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+  File "/data/data/com.termux/files/home/bot_amazon.py", line 8
+    TOKEN = "8704199845:AAH6YVxS8DkZfXqF2Cr9vtLI6mnR0V6JHg""
+                                                           ^
+SyntaxError: unterminated string literal (detected at line 8)
+  File "/data/data/com.termux/files/home/bot_amazon.py", line 8
+    TOKEN = "8704199845:AAH6YVxS8DkZfXqF2Cr9vtLI6mnR0V6JHg""
+                                                           ^
+SyntaxError: unterminated string literal (detected at line 8)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bot_alert.py", line 5, in <module>
+    time
+NameError: name 'time' is not defined. Did you forget to import 'time'?
